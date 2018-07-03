@@ -1,4 +1,6 @@
 # A project to analyse tweets to identify hate speech
+# Part 1: Cleaning and preprocessing data
+
 #https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90
 
 import pandas as pd
