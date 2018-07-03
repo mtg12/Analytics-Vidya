@@ -78,10 +78,10 @@ for i in range(nums[0],nums[1]):
 
 clean_df = pd.DataFrame(clean_tweet_texts,columns=['text'])
 clean_df['target'] = df.sentiment
-clean_df.head()
+print(clean_df.head())
 
 clean_df.to_csv('clean_tweet.csv',encoding='utf-8')
 csv = 'clean_tweet.csv'
 
 my_df = pd.read_csv(csv,index_col=0)
-my_df.head()
+print(my_df.head())
